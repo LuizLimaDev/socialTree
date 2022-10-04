@@ -26,6 +26,7 @@ body {
    border-radius: 100%;
    box-shadow: 0 0 0 0.19em black;
    margin-bottom: 1em;
+   box-sizing: border-box;
  }
 
  .instagram__profile {
