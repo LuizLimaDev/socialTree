@@ -1,0 +1,106 @@
+@import url('./perfil.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-de-fundo: #e7e7e7;
+    --fonte-padrao: "Poppins"
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.foto .foto__perfil {
+   width: 12%;
+   border: 0.19em solid var(--cor-de-fundo);
+   border-radius: 100%;
+   box-shadow: 0 0 0 0.19em black;
+   margin-bottom: 1em;
+ }
+
+ .instagram__profile {
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Poppins";
+    font-weight: 300;
+    margin-bottom: 1em;
+ }
+
+ .links__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.links__menu {
+    list-style: none;
+    font-family: "Poppins";
+    font-weight: 600;
+ }
+
+.links__menu-itens {
+    margin: 1em;
+    padding: 1em;
+    border: 0.19em solid black;
+    border-radius: 5px;
+    text-align: center;
+ }
+
+.link01:hover {
+    color: green;
+    border: 0.19em solid green;
+ }
+
+.link02:hover {
+    color: rgb(211, 211, 16);
+    border: 0.19em solid rgb(211, 211, 16);
+ }
+
+ .link03:hover {
+    color: rgb(3, 3, 226);
+    border: 0.19em solid rgb(3, 3, 226);
+ }
+
+ .link04:hover {
+    color: rgb(216, 5, 5);
+    border: 0.19em solid rgb(216, 5, 5);
+ }
+
+ .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+ }
+
+ .lista__icones {
+    display: flex;
+    list-style: none;
+ }
+
+ .minilogo {    
+    width: 3vw;
+    padding: 1em;
+ }
+
+.minilogo:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+   .minilogo {    
+      width: 13vw;
+      padding: 1em;
+   }
+}
